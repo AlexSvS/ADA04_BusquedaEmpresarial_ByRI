@@ -1,0 +1,1 @@
+El aprendizaje automático es una técnica de inteligencia artificial. Los algoritmos de aprendizaje automático analizan datos, identifican patrones y construyen modelos para hacer predicciones. El aprendizaje automático se aplica al reconocimiento de imágenes, recomendaciones y análisis de información.

@@ -1,0 +1,1 @@
+La recuperación de información permite buscar documentos relevantes dentro de una colección. Un índice invertido relaciona cada término con los documentos donde aparece. TF-IDF y la similitud coseno ayudan a ordenar los resultados según la relevancia de una consulta.

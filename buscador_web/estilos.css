@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f3f5f8; color: #243044; line-height: 1.55; }
+.contenedor { width: min(900px, 92%); margin: 0 auto; }
+.encabezado { background: #173b67; color: white; padding: 30px 0; margin-bottom: 28px; }
+h1 { margin: 0 0 8px; } .encabezado p { margin: 0; color: #e3edf8; }
+.panel { background: white; margin: 20px 0; padding: 24px; border-radius: 10px; box-shadow: 0 3px 14px #172b4d12; }
+h2 { margin-top: 0; color: #173b67; }
+label { display: block; font-weight: bold; margin: 12px 0 6px; }
+input[type="file"], input[type="search"] { width: 100%; padding: 11px; border: 1px solid #cbd3df; border-radius: 6px; background: white; }
+button { border: 0; border-radius: 6px; padding: 11px 18px; margin-top: 12px; background: #1769aa; color: white; font-weight: bold; cursor: pointer; }
+button:hover { background: #0e5288; }
+.fila { display: flex; gap: 10px; align-items: end; } .fila input { flex: 1; } .fila button { margin: 0; }
+.ayuda { color: #66758a; font-size: .9rem; }
+.estadisticas { display: flex; gap: 40px; } .estadisticas div { display: grid; } .estadisticas strong { font-size: 1.8rem; color: #1769aa; } .estadisticas span { color: #66758a; }
+.resultado { border-top: 1px solid #e1e6ee; padding: 16px 0; } .resultado h2 { font-size: 1.15rem; margin-bottom: 4px; }
+a { color: #1769aa; } .exito { color: #167344; font-weight: bold; } .error { color: #b42318; font-weight: bold; } .aviso { background: #fff5d8; padding: 10px; border-radius: 6px; }
+footer { padding: 24px 0; color: #66758a; font-size: .9rem; }
+@media (max-width: 600px) { .fila, .estadisticas { display: block; } .fila button { margin-top: 10px; width: 100%; } }
